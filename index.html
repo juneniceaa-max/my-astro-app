@@ -83,12 +83,43 @@
             <input type="datetime-local" id="birthTime" value="1995-10-24T12:00">
             
             <label>📍 地理方位</label>
-            <select id="location">
-                <option value="116.4">北京</option>
-                <option value="121.4">上海</option>
-                <option value="113.2">广州</option>
-                <option value="104.0">成都</option>
-            </select>
+<select id="location">
+    <optgroup label="常用">
+        <option value="116.4">北京</option>
+        <option value="121.4">上海</option>
+        <option value="113.2">广州</option>
+        <option value="114.0">深圳</option>
+        <option value="104.0">成都</option>
+    </optgroup>
+    <optgroup label="华北/东北">
+        <option value="117.2">天津</option>
+        <option value="114.5">石家庄</option>
+        <option value="112.5">太原</option>
+        <option value="123.4">沈阳</option>
+        <option value="126.6">哈尔滨</option>
+    </optgroup>
+    <optgroup label="华东">
+        <option value="118.8">南京</option>
+        <option value="120.1">杭州</option>
+        <option value="117.0">济南</option>
+        <option value="119.3">福州</option>
+        <option value="117.2">合肥</option>
+    </optgroup>
+    <optgroup label="华中/华南">
+        <option value="114.3">武汉</option>
+        <option value="112.9">长沙</option>
+        <option value="108.3">南宁</option>
+        <option value="110.3">海口</option>
+    </optgroup>
+    <optgroup label="西部">
+        <option value="106.5">重庆</option>
+        <option value="108.9">西安</option>
+        <option value="103.8">兰州</option>
+        <option value="101.7">西宁</option>
+        <option value="87.6">乌鲁木齐</option>
+        <option value="91.1">拉萨</option>
+    </optgroup>
+</select>
             
             <button class="main-btn" onclick="runCalculation()">开启灵魂指引</button>
         </div>
